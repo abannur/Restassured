@@ -9,9 +9,6 @@ import com.github.javafaker.Faker;
 import static io.restassured.RestAssured.given;
 
 public class CreateUser {
-	
-	
-	
 	@Test
 	@Parameters({ "bearerToken" })
 	public void createUserTest(ITestContext context,String bearerToken)
